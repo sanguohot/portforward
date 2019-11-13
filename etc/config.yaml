@@ -1,7 +1,13 @@
 forwards:
-- dstAddr: 10.6.250.55:8443 #
+- dstAddr: 10.6.250.55:8443 # medichain apiserver port
   network: tcp # tcp/udp
   srcAddr: 0.0.0.0:8443
-- dstAddr: 10.6.250.55:8443 #
+- dstAddr: 10.6.250.55:8546 # blockchain rpc port
+  network: tcp # tcp/udp
+  srcAddr: 0.0.0.0:8546
+- dstAddr: 10.6.250.55:8822 # blockchain channel port
+  network: tcp # tcp/udp
+  srcAddr: 0.0.0.0:8822
+- dstAddr: 10.6.250.55:8443 # 当前仅测试用
   network: udp # tcp/udp
   srcAddr: 0.0.0.0:8443
