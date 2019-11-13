@@ -1,5 +1,5 @@
 # portforward
-simport tcp/udp port forward to another address
+simple tcp/udp port forward to another address
 ## 环境依赖
 go1.12+
 ## 编译
