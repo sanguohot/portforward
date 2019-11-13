@@ -1,0 +1,7 @@
+forwards:
+- dstAddr: 10.6.250.55:8443 #
+  network: tcp # tcp/udp
+  srcAddr: 0.0.0.0:8443
+- dstAddr: 10.6.250.55:8443 #
+  network: udp # tcp/udp
+  srcAddr: 0.0.0.0:8443
